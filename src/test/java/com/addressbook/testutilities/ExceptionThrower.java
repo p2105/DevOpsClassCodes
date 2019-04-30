@@ -1,10 +1,11 @@
-package com.edurekademo.utilities;
+package com.addressbook.testutilities;
 
 import java.io.IOException;
 
-import com.edurekademo.utilities.LoggerStackTraceUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.addressbook.utilities.LoggerStackTraceUtil;
 
 public class ExceptionThrower {
 

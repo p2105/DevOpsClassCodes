@@ -1,4 +1,4 @@
-package com.edurekademo.utilities;
+package com.addressbook.testutilities;
 
 public class UnitDTO {
 

@@ -1,15 +1,15 @@
-package com.edurekademo.utilities;
+package com.addressbook.testutilities;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import com.edurekademo.utilities.GenericComparator;
-import com.edurekademo.utilities.CaseInsensitiveComparator;
-
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import org.junit.*; 
+import org.junit.*;
+
+import com.addressbook.utilities.CaseInsensitiveComparator;
+import com.addressbook.utilities.GenericComparator; 
 /**
  * @author Seshagiri Sriram
  *

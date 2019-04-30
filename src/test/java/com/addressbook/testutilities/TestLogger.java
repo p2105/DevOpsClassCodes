@@ -1,8 +1,9 @@
-package com.edurekademo.utilities;
-import com.edurekademo.utilities.LoggerStackTraceUtil;
+package com.addressbook.testutilities;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.addressbook.utilities.LoggerStackTraceUtil;
 
 public class TestLogger {
 
