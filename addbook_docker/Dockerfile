@@ -1,4 +1,4 @@
-FROM tomcat:8.0
+FROM tomcat:latest
 
 COPY target/addressbook.war /usr/local/tomcat/webapps/
 
