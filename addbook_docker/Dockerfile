@@ -1,4 +1,6 @@
-FROM ubuntu:latest
+FROM tomcat:8.0
+
+COPY target/addressbook.war /usr/local/tomcat/webapps/
 
 # to make the installation non-interactive
 ENV DEBIAN_FRONTEND=noninteractive
